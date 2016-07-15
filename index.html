@@ -19,6 +19,9 @@
     <!--My Styles-->
     <link rel="stylesheet" href="css/main.css">
 
+    <!--wufoo js-->
+    <script src="js/wufoo.js"></script>
+
 </head>
 
 <body>
@@ -33,10 +36,10 @@
                     <a class="nav-link" href="#what">What</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#how">How</a>
+                    <a class="nav-link" href="#where">Where</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#where">Where</a>
+                    <a class="nav-link" href="#how">How</a>
                 </li>
             </ul>
             <a class="navbar-brand pull-sm-right m-r-0 hidden-xs-down" target="_blank" href="https://teamtreehouse.com/razzmatazzrr">My Treehouse Profile</a>
@@ -262,7 +265,7 @@
 
 
     <!-- how -->
-    <div id="how" class="container">
+    <div id="where" class="container">
         <div class="background">
 
         </div>
@@ -270,58 +273,30 @@
     </div>
     <!-- /how -->
 
-    <div id="where" class="container">
-        <div class="row background">
-            <form class="col-xs-6 col-xs-offset-3" action="index.html" method="post">
+    <div id="how" class="container">
+        <div id="public" class="row background">
+            <form id="form1" name="form1" class="col-xs-6 col-xs-offset-3 m-t-3" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://razzmatazzrr.wufoo.com/forms/z1mn6kaa1hdkym1/#public">
 
-                <h1>Contact </h1>
+                <!--<h1>Say Hello ^_^</h1>-->
+                    <label for="Field2">Name</label>
+                    <input id="Field2" name="Field2" type="text" value="" tabindex="1">
 
-                <label for="name">Name</label>
-                <input type="text" id="name" name="user_name">
-
-                <label for="mail">Email</label>
-                <input type="email" id="mail" name="user_email">
+                <label for="Field4">Email</label>
+                <input id="Field4" name="Field4" type="email" spellcheck="false" value="">
 
                 <label for="bio">Whats Up?</label>
-                <textarea id="message" name="user_message"></textarea>
+                <textarea id="Field5" name="Field5" spellcheck="true" tabindex="4" onkeyup=""></textarea>
 
-                <button type="submit">Submit</button>
+                <button id="saveForm" name="saveForm" type="submit" value="Submit">Send</button>
 
+                <div style="display:none">
+                    <label for="comment">Do Not Fill This Out</label>
+                    <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                    <input type="hidden" id="idstamp" name="idstamp" value="A73y8DkLj5kRBFH/Sq/BmRtvHAj2+/M4oCWPCgVtH/U=" />
+                </div>
             </form>
         </div>
-
     </div>
-
-
-    <!-- bootstrap form -->
-<!--        <div id="where" class="container">
-        <div class="row background">
-            <div class="col-xs-6 col-sm-offset-3">
-                <form>
-                    <div class="form-group">
-                        <label for="firstname">Firstname</label>
-                        <input type="firstname" class="form-control" id="firstname">
-                    </div>
-                    <div class="form-group">
-                        <label for="lastname">Lastname</label>
-                        <input type="lastname" class="form-control" id="lastname">
-                    </div>
-                    <div class="form-group">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control" id="email">
-                    </div>
-                    <div class="form-group">
-                        <label for="whatsUp">Whats up?</label>
-                        <textarea class="form-control" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-default">Submit</button>
-                </form>
-            </div>
-        </div>
-
-    </div>-->
-
-
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

@@ -28,7 +28,7 @@ div#what{
 /* Badge Rotate                                    */
 /***************************************************/
 
-div#how{
+div#where{
     height: 1000px;
     background-color: blue;
 }
@@ -37,7 +37,7 @@ div#how{
 /* Where You Can Find all "three" of My Websites   */
 /***************************************************/
 
-div#where{
+div#how{
     height: 1000px;
     background-color: snow;
 }
