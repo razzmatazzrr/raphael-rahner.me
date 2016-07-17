@@ -19,9 +19,6 @@
     <!--My Styles-->
     <link rel="stylesheet" href="css/main.css">
 
-    <!--wufoo js-->
-    <script src="js/wufoo.js"></script>
-
 </head>
 
 <body>
@@ -53,10 +50,7 @@
 
     <div id="know" class="container-fluid bg-img">
         <div class="row">
-            <h2 id="smush-it" class="col-xs-10 text-xs-center">I Know</h2>
-            <h2 id="scale-it" class="col-xs-12 text-xs-center">HTML...</h2>
-            <!--<h2 id="spin-it" class="css3">and</h2>
-            <h2 id="fade-it" class="css3">Some CSS</h2>-->
+            <!--<h2 id="smush-it" class="col-xs-10 col-xs-offset-1 text-xs-center">I Know HTML...</h2>-->
         </div>
     </div>
     <!-- /know -->
@@ -64,6 +58,7 @@
     <!-- what -->
     <div id="what" class="container-fluid bg-img">
         <div class="row">
+            <!--<h2 id="spin-it" class="css3 col-xs-10 col-xs-offset-1 text-xs-center">These are the Courses I completed on Treehouse</h2>-->
             <ul id="hexGrid">
                 <li class="hex">
                     <a class="hexIn" target="_blank" href="https://teamtreehouse.com/library/git-basics">
@@ -258,28 +253,61 @@
             </ul>
         </div>
     </div>
-    <!-- /where -->
+    <!-- /what-->
 
-
-
-
-
-    <!-- how -->
+    <!--Where-->
+    <!--<h2 id="fade-it" class="col-xs-10 col-xs-offset-1 text-xs-center">All Two Websites I've Created</h2>--> <!--this is causing white space-->
     <div id="where" class="container">
-        <div class="background">
-
+        
+        <div style="background-color:red" class="row">
+            
+            <div style="margin-top:50px; background-color:snow" class="card col-xs-10 col-xs-offset-1 col col-md-4 col-md-offset-1">
+                <img style="width:100%;" class="card-img-top m-t-1" src="img/site-1.png" alt="Card image cap">
+                <h4 class="card-title text-xs-center m-t-1">Levr Creations</h4>
+                <div class="card-block">
+                    <p class="card-text text-xs-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <h6 class="card-subtitle text-muted text-xs-center m-t-1 m-b-1 hidden-sm-down">Tech Used:</h6>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-xs-center">Foundation for Sites</li>
+                    <li class="list-group-item text-xs-center">fullPage.js</li>
+                </ul>
+                <div class="card-block">
+                    <button>
+                        <a href="http://levr.co.za" target="_blank" class="card-link">levr.co.za</a>
+                    </button>
+                </div>
+            </div>
+            
+            <div style="margin-top:50px; background-color:snow" class="card col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1 col-md-push-1">
+                <img style="width:100%;" class="card-img-top m-t-1" src="img/site-2.png" alt="Card image cap">
+                <h4 class="card-title text-xs-center m-t-1">DooK</h4>
+                <div class="card-block">
+                    <p class="card-text text-xs-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+                <h6 class="card-subtitle text-muted text-xs-center m-t-1 m-b-1 hidden-sm-down">Tech Used:</h6>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-xs-center">Foundation for Sites</li>
+                    <li class="list-group-item text-xs-center">lazyLoader.js</li>
+                </ul>
+                <div class="card-block">
+                    <button>
+                        <a href="http://dook.co.za" target="_blank" class="card-link">dook.co.za</a>
+                    </button>
+                </div>
+            </div>
         </div>
-
     </div>
-    <!-- /how -->
+    <!--/Where-->
 
+    <!--how-->
     <div id="how" class="container">
         <div id="public" class="row background">
-            <form id="form1" name="form1" class="col-xs-6 col-xs-offset-3 m-t-3" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://razzmatazzrr.wufoo.com/forms/z1mn6kaa1hdkym1/#public">
+            <!--<h2 id="scale-it" class="css3 col-xs-10 col-xs-offset-1 text-xs-center">You Know What to Do!</h2>-->
+            <form style="background-color:snow" id="form1" name="form1" class="card col-xs-10 col-md-6 col-xs-offset-1 col-md-offset-3 m-t-3" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://razzmatazzrr.wufoo.com/forms/z1mn6kaa1hdkym1/#public">
 
-                <!--<h1>Say Hello ^_^</h1>-->
-                    <label for="Field2">Name</label>
-                    <input id="Field2" name="Field2" type="text" value="" tabindex="1">
+                <label class="m-t-1" for="Field2">Name</label>
+                <input id="Field2" name="Field2" type="text" value="" tabindex="1">
 
                 <label for="Field4">Email</label>
                 <input id="Field4" name="Field4" type="email" spellcheck="false" value="">
@@ -297,6 +325,21 @@
             </form>
         </div>
     </div>
+    <!--/how-->
+    
+    <!--Footer-->
+    <footer>
+        <div style="background-color:red; height: 200px" class="container-fluid">
+            <div class="row">
+                <div class="container">
+                    <div style="background-color:blue; height: 200px" class="row">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--/Footer-->
 
     <!-- jQuery first, then Bootstrap JS. -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
@@ -306,6 +349,10 @@
     <!--superscrollorama-->
     <script type="text/javascript" src="js/greensock/TweenMax.min.js"></script>
     <script src="js/jquery.superscrollorama.js"></script>
+
+    <!--wufoo js-->
+    <script src="js/wufoo.js"></script>
+
     <script>
         $(document).ready(function () {
             // This example adds a duration to the tweens so they are synced to the scroll position
