@@ -1,3 +1,8 @@
+body {
+    background-image: url("../img/stardust.png");
+    background-repeat: repeat;
+}
+
 
 /***************************************************/
 /* I Know HTML                                     */
@@ -5,14 +10,14 @@
 
 div#know{
     position: relative;
-    height: 1000px;
+    height: 500px;
     background-image: url('../img/i-know-html.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 #smush-it {
-    margin-top: 500px;
+    /*margin-top: 500px;*/
 }
 
 /***************************************************/
@@ -21,47 +26,46 @@ div#know{
 
 div#what{
     /*height: 1000px;*/
-    background-color: #202c18;
+    background: rgba(31,38,18, .6);
 }
 
 /***************************************************/
 /* Badge Rotate                                    */
 /***************************************************/
 
-div#where{
+/*div#where{
     height: 1000px;
     background-color: blue;
-}
+}*/
 
 /***************************************************/
 /* Where You Can Find all "three" of My Websites   */
 /***************************************************/
 
-div#how{
+/*div#how{
     height: 1000px;
-    background-color: snow;
-}
+    background-color: red;
+}*/
 
 /***************************************************/
 /* Superscrollorama                                */
 /***************************************************/
 
-h2 {
+/*h2 {
   position: absolute;
 	font-size: 100px;
 	font-weight: normal;
-  /*text-align: center;*/
 	margin: 0;
 	color: chocolate;
-	/*padding: 6px;*/
 	text-shadow: 0 2px 1px black;
 	font-family: 'Impact',Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
-}
+}*/
 
-h2.css3 {
+/*h2.css3 {
+    text-align: center;
     color: steelblue;
     text-shadow: 0 2px 1px black;
-    font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;
+    font-family: 'Luckiest Guy',Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,Gadget,sans-serif;*/
 }
 
 /***************************************************/
@@ -129,7 +133,7 @@ select {
   border-radius: 2px;
 }
 
-button {
+button{
   padding: 19px 39px 18px 39px;
   color: #FFF;
   background-color: #4bc970;
@@ -142,6 +146,27 @@ button {
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
   margin-bottom: 10px;
+}
+
+button:hover { 
+background-color: lightgreen;
+border: 1px solid lightgoldenrodyellow; 
+border-width: 1px 1px 3px;
+}
+
+.card-link {  
+    color:  #FFF; 
+}
+
+.card-link:hover {
+    color: #8a97a0;
+}
+
+.card-link:not(.nohover):hover,
+a:visited,
+.card-link{  
+    color:  #FFF;
+    text-decoration: none !important;
 }
 
 fieldset {
@@ -177,8 +202,6 @@ label.light {
   text-shadow: 0 1px 0 rgba(255,255,255,0.2);
   border-radius: 100%;
 }
-
-
 
 
 
