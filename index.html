@@ -19,11 +19,14 @@
 </head>
 
 <body>
+
+
+
     <!-- navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!--    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container">
             <ul class="nav navbar-nav">
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a class="nav-link" href="#know">Know <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
@@ -36,11 +39,33 @@
                     <a class="nav-link" href="#how">How</a>
                 </li>
             </ul>
-            <a class="navbar-brand pull-sm-right m-r-0 hidden-xs-down" target="_blank" href="https://teamtreehouse.com/razzmatazzrr">Raphael on Treehouse</a>
         </div>
-    </nav>
+    </nav>-->
     <!-- /navbar -->
-
+<nav class="navbar navbar-dark navbar-fixed-top">
+  <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar2">
+    <!--&#9776;-->
+  </button>
+  <div class="collapse navbar-toggleable-xs" id="exCollapsingNavbar2">
+      <div class="container">
+    <ul class=" nav navbar-nav">
+      <li class="nav-item "> <!--active-->
+                    <a class="nav-link" href="#know">Know <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#what">What</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#where">Where</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how">How</a>
+                </li>
+      </li>
+    </ul>
+  </div>
+    </div>
+</nav>
 
 
     <!-- know -->
@@ -48,7 +73,7 @@
     <div id="know" class="container-fluid bg-img">
         <div class="row">
             <h2 id="mobile-scale-it" class="hidden-sm-up col-xs-10 col-xs-offset-1 text-xs-center">I Know HTML</h2>
-            <h2 id="scale-it" class="hidden-xs-down col-xs-10 col-xs-offset-1 text-xs-center">I Know HTML...</h2>
+            <h2 id="scale-it" class="hidden-sm-down col-xs-10 col-xs-offset-1 text-xs-center">I Know HTML</h2>
         </div>
     </div>
     <!-- /know -->
@@ -56,9 +81,9 @@
     <!-- what -->
     <div id="what" class="container-fluid bg-img">
         <div class="row">
-            <h2 id="mobile-smush-it" class="hidden-sm-up css3 p-t-1 p-b-1 col-xs-10 col-xs-offset-1 text-xs-center">Courses I did on Treehouse</h2>
-            <h2 id="smush-it" class="hidden-sm-down css3 p-t-3 p-b-3 col-xs-10 col-xs-offset-1 text-xs-center">Courses I did on Treehouse</h2>
-            <ul id="hexGrid" class="p-t-3 p-b-3">
+            <!--<h2 id="mobile-smush-it" class="hidden-sm-up css3 p-t-1 p-b-1 col-xs-10 col-xs-offset-1 text-xs-center">Courses I did on Treehouse</h2>-->
+            <h2 id="smush-it" class=" css3 p-t-3 p-b-3 col-xs-10 col-xs-offset-1 text-xs-center">Courses I did on Treehouse</h2>
+            <ul id="hexGrid" class="p-t-1 p-b-3">
                 <li class="hex">
                     <a class="hexIn" target="_blank" href="https://teamtreehouse.com/library/git-basics">
                         <img src="img/git-basics.png" alt="Link to the Treehouse course, git basics" />
@@ -260,7 +285,7 @@
         
         <div class="row">
             
-            <div style="background-color:snow" class=" m-t-3 card col-xs-10 col-xs-offset-1 col col-md-4 col-md-offset-1">
+            <div style="background-color:snow" class=" m-t-3 card col-xs-10 col-xs-offset-1 col col-md-4 col-lg-5 col-md-offset-1 col-lg-offset-0">
                 <img style="width:100%;" class="card-img-top m-t-1" src="img/site-1.png" alt="Card image cap">
                 <h4 class="card-title text-xs-center m-t-1">Levr Creations</h4>
                 <div class="card-block">
@@ -272,13 +297,13 @@
                     <li class="list-group-item text-xs-center">fullPage.js</li>
                 </ul>
                 <div class="card-block">
-                    <button>
+                    <button class="buttons">
                         <a href="http://levr.co.za" target="_blank" class="card-link">levr.co.za</a>
                     </button>
                 </div>
             </div>
             
-            <div style="background-color:snow" class=" m-t-3 card col-xs-10 col-xs-offset-1 col-md-4 col-md-offset-1 col-md-push-1">
+            <div style="background-color:snow" class=" m-t-3 card col-xs-10 col-xs-offset-1 col-md-4 col-lg-5 col-md-offset-1 col-md-push-1">
                 <img style="width:100%;" class="card-img-top m-t-1" src="img/site-2.png" alt="Card image cap">
                 <h4 class="card-title text-xs-center m-t-1">DooK</h4>
                 <div class="card-block">
@@ -290,7 +315,7 @@
                     <li class="list-group-item text-xs-center">lazyLoader.js</li>
                 </ul>
                 <div class="card-block">
-                    <button>
+                    <button class="buttons">
                         <a href="http://dook.co.za" target="_blank" class="card-link">dook.co.za</a>
                     </button>
                 </div>
@@ -319,7 +344,7 @@
                 <label for="bio">Whats Up?</label>
                 <textarea id="Field5" name="Field5" spellcheck="true" tabindex="4" onkeyup=""></textarea>
 
-                <button id="saveForm" name="saveForm" type="submit" value="Submit">Send</button>
+                <button class="buttons" id="saveForm" name="saveForm" type="submit" value="Submit">Send</button>
 
                 <div style="display:none">
                     <label for="comment">Do Not Fill This Out</label>
@@ -393,6 +418,20 @@
                 css: {
                     opacity: 1,
                     fontSize: '80px'
+                },
+                ease: Quad.easeInOut
+            }), scrollDuration);
+             controller.addTween('#mobile-scale-it', TweenMax.fromTo($('#mobile-scale-it'), .25, {
+                css: {
+                    opacity: 0,
+                    fontSize: '10px'
+                },
+                immediateRender: true,
+                ease: Quad.easeInOut
+            }, {
+                css: {
+                    opacity: 1,
+                    fontSize: '10px'
                 },
                 ease: Quad.easeInOut
             }), scrollDuration);
