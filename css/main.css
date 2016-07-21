@@ -1,97 +1,84 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+
+/*==================================================
+=              Background Styles                   =
+==================================================*/
+
 body {
     background-image: url("../img/stardust.png");
     background-repeat: repeat;
+    /*margin-top: 50px;*/
 }
-
-
-/***************************************************/
-
-/* I Know HTML                                     */
-
-/***************************************************/
-
-
-
-/***************************************************/
-
-
-/* What I've Lernt (show treehouse points)         */
-
-
-/***************************************************/
 
 div#what {
-    /*height: 1000px;*/
     background: rgba(31, 38, 18, .4);
 }
-
-
-/***************************************************/
-
-
-/* Badge Rotate                                    */
-
-
-/***************************************************/
-
-
-/*div#where{
-    height: 1000px;
-    background-color: blue;
-}*/
-
-
-/***************************************************/
-
-
-/* Where You Can Find all "three" of My Websites   */
-
-
-/***************************************************/
 
 div#how {
     background: rgba(31, 38, 18, .6);
     box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
 }
 
+/*==================================================
+=                    Fonts                         =
+==================================================*/
 
-/***************************************************/
+h1,h2,h3,h4,h5,h6,
+.card-title,
+.card-text,
+.card-subtitle,
+.list-group-item,
+a,
+label,
+.nav,
+.nav-item,
+.nav-item,{
+  font-family: 'Source Code Pro', ;
+}
+
+.card-subtitle,
+.card-title {
+    font-weight: 400;
+}
 
 
-/* Superscrollorama                                */
+/*==================================================
+=                  Nav Styles                      =
+==================================================*/
 
+.navbar-default {
+    background: steelblue;
+    /*padding: 10px;*/
+}
 
-/***************************************************/
-
-
+/*==================================================
+=                Superscrollorama                  =
+==================================================*/
 
 h2 {
     position: absolute;
-    /*font-size: 50px;*/
-    font-weight: normal;
+    text-align: center;
+    font-weight: bold;
     margin: 0;
     color: chocolate;
     text-shadow: 0 2px 1px black;
-    font-family: 'Luckiest Guy', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, Gadget, sans-serif;
+    font-family: 'Source Code Pro', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, Gadget, sans-serif;
 }
 
 h2.css3 {
     
     /*font-size: 30px;*/
+    font-weight: bold;
     text-align: center;
     color: steelblue;
     text-shadow: 0 2px 1px black;
-    font-family: 'Luckiest Guy', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, Gadget, sans-serif;
+    font-family: 'Source Code Pro',, Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, Gadget, sans-serif;
 }
 
 
-/***************************************************/
-
-
-/* Form                                            */
-
-
-/***************************************************/
+/*==================================================
+=                   Form                           =
+==================================================*/
 
 *,
 *:before,
@@ -101,10 +88,10 @@ h2.css3 {
     box-sizing: border-box;
 }
 
-body {
+/*body {
     font-family: 'Nunito', sans-serif;
     color: #384047;
-}
+}*/
 
 
 }
@@ -404,7 +391,7 @@ label.light {
     
 #scale-it {
     margin-top: 900px;
-    background: purple
+    background: purple;
 }
 
 /*Course I did on treehouse*/
