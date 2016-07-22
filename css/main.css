@@ -4,11 +4,6 @@
 =            Bootstrap Media Queries               =
 ==================================================*/
 
-.navbar-toggler {
-    background: steelblue;
-}
-
-
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
@@ -17,15 +12,15 @@
 ==================================================*/
     div#know {
         position: relative;
-        height: 400px;
+        height: 456px;
         background-image: url('../img/Erlick-mobil.png');
         background-size: 100%;
         background-repeat: no-repeat;
     }
     /*I know HTML*/
     #mobile-scale-it {
-        margin-top: 80px;
-        background: brown
+        margin-top: 330px;
+        /*background: brown*/
     }
     /*Course I did on treehouse*/
     #smush-it {
@@ -188,6 +183,10 @@
     }
 }
 
+/*==================================================
+=            Bootstrap Media Queries END           =
+==================================================*/
+
 
 /*==================================================
 =              Background Styles                   =
@@ -214,7 +213,7 @@ div#where {
 }
 
 div#how {
-    padding-top: 100px;
+    padding-top: 140px;
     height: 900px;
     background: rgba(31, 38, 18, .6);
     box-shadow: inset 0 20px 20px -20px white;
@@ -262,7 +261,7 @@ label,
     padding: 1.2rem;
     font-size: 1.25rem;
     line-height: 1;
-    border: 2px solid lightgoldenrodyellow;
+    /*border: 2px solid lightgoldenrodyellow;*/
     border-radius: 4rem;
     margin-top: 18px;
     margin-left: 8px;
@@ -271,8 +270,8 @@ label,
 }
 
 .navbar-toggler:hover {
-    background: lightgoldenrodyellow;
-    border: 2px solid steelblue;
+   /* background: chocolate;*/
+    border: 2px solid chocolate;
     outline: none !important;
 }
 
@@ -301,16 +300,22 @@ label,
 
 .navbar .navbar-nav .active a {
     font-weight: 700;
-    color: lightgoldenrodyellow;
+    color: deeppink;
     border-bottom: 4px solid chocolate;
     border-radius: 10px;
 }
 
 .navbar .navbar-nav a:hover {
     font-weight: 700;
-    color: lightgoldenrodyellow;
+    color: deeppink;
     border-bottom: 4px solid chocolate;
     border-radius: 10px;
+}
+
+.navbar .footer-nav a:hover {
+    color: #674d90;
+    border-bottom: none;
+    text-decoration: none;
 }
 
 
