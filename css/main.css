@@ -4,6 +4,55 @@
 =            Bootstrap Media Queries               =
 ==================================================*/
 
+/*iphone 4*/
+@media only screen and (min-width:.063em) and (max-width:20em){
+
+        div#know {
+        position: relative;
+        height: 400px;
+        background-image: url('../img/Erlick-mobil.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+    /*I know HTML*/
+    #mobile-scale-it {
+        margin-top: 200px;
+        /*background: brown*/
+    }
+    /*Course I did on treehouse*/
+    #smush-it {
+        padding-top: 20px;
+        font-size: 40px;
+        /*background: brown;*/
+    }
+    /*All Two Websites I've Created*/
+    #fade-it {
+        font-size: 40px;
+    }
+    /*You Know What to Do*/
+    #spin-it {
+        font-size: 30px;
+    }
+
+    footer {
+        padding-bottom: 100px;
+    }
+
+    .social,
+    .navbar-fixed-top{
+    margin-left: -12px
+}
+
+        svg {
+            width: 3.5em;
+            height: 3.5em;
+            margin-bottom: 10px;
+        }
+}
+
+}
+
+
 /* Custom, iPhone Retina */
 
 @media only screen and (min-width: 320px) {
