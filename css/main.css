@@ -4,10 +4,11 @@
 =            Bootstrap Media Queries               =
 ==================================================*/
 
-/*iphone 4*/
-@media only screen and (min-width:.063em) and (max-width:20em){
 
-        div#know {
+/*iphone 4*/
+
+@media only screen and (min-width:.063em) and (max-width:20em) {
+    div#know {
         position: relative;
         height: 400px;
         background-image: url('../img/Erlick-mobil.png');
@@ -33,32 +34,29 @@
     #spin-it {
         font-size: 30px;
     }
-
     footer {
         padding-bottom: 100px;
     }
-
     .social,
-    .navbar-fixed-top{
-    margin-left: -12px
+    .navbar-fixed-top {
+        margin-left: -12px
+    }
+    svg {
+        width: 3.5em;
+        height: 3.5em;
+        margin-bottom: 10px;
+    }
 }
 
-        svg {
-            width: 3.5em;
-            height: 3.5em;
-            margin-bottom: 10px;
-        }
-}
 
 }
-
 
 /* Custom, iPhone Retina */
-
 @media only screen and (min-width: 320px) {
     /*==================================================
 =   Erlich                                         =
 ==================================================*/
+
     div#know {
         position: relative;
         height: 456px;
@@ -67,21 +65,25 @@
         background-repeat: no-repeat;
     }
     /*I know HTML*/
+
     #mobile-scale-it {
         margin-top: 330px;
         /*background: brown*/
     }
     /*Course I did on treehouse*/
+
     #smush-it {
         padding-top: 20px;
         font-size: 55px;
         /*background: brown;*/
     }
     /*All Two Websites I've Created*/
+
     #fade-it {
         font-size: 50px;
     }
     /*You Know What to Do*/
+
     #spin-it {
         font-size: 30px;
     }
@@ -91,24 +93,23 @@
     }
 
     .social,
-    .navbar-fixed-top{
-    margin-left: -12px
-}
+    .navbar-fixed-top {
+        margin-left: -12px
+    }
 
-        svg {
-            width: 3.5em;
-            height: 3.5em;
-            margin-bottom: 10px;
-        }
+    svg {
+        width: 3.5em;
+        height: 3.5em;
+        margin-bottom: 10px;
+    }
 }
-
 
 /* Extra Small Devices, Phones */
-
 @media only screen and (min-width: 480px) {
     /*==================================================
 =   Erlich BG                                      =
 ==================================================*/
+
     div#know {
         position: relative;
         height: 455px;
@@ -117,37 +118,40 @@
         background-repeat: no-repeat;
     }
     /*I know HTML*/
+
     #scale-it {
         margin-top: 220px;
         /*background: yellow*/
     }
     /*Course I did on treehouse*/
+
     #mobile-smush-it {
         margin-top: 50px;
         font-size: 50px;
     }
     /*All Two Websites I've Created*/
+
     #fade-it {
         font-size: 30px;
     }
     /*You Know What to Do*/
+
     #spin-it {
         font-size: 25px;
     }
 
     .social,
     .navbar-fixed-top {
-    margin-left: 0px;
+        margin-left: 0px;
+    }
 }
-}
-
 
 /* Small Devices, Tablets */
-
 @media only screen and (min-width: 768px) {
     /*==================================================
 =   Erlich BG                                      =
 ==================================================*/
+
     div#know {
         position: relative;
         height: 650px;
@@ -156,42 +160,45 @@
         background-repeat: no-repeat;
     }
     /*I know HTML*/
+
     #scale-it {
         margin-top: 500px;
         /*background: green*/
     }
     /*Course I did on treehouse*/
+
     #smush-it {
         font-size: 60px;
     }
     /*All Two Websites I've Created*/
+
     #fade-it {
         font-size: 50px;
     }
     /*You Know What to Do*/
+
     #spin-it {
         font-size: 35px;
     }
 
     .social,
     .navbar-fixed-top {
-    margin-left: 0px;
-}
+        margin-left: 0px;
+    }
 
-        svg {
-            width: 5em;
-            height: 5em;
-            margin-bottom: 0px;
-        }
+    svg {
+        width: 5em;
+        height: 5em;
+        margin-bottom: 0px;
+    }
 }
-
 
 /* Medium Devices, Desktops */
-
 @media only screen and (min-width: 992px) {
     /*==================================================
 =   Erlich BG                                      =
 ==================================================*/
+
     div#know {
         position: relative;
         height: 850px;
@@ -200,37 +207,40 @@
         background-repeat: no-repeat;
     }
     /*I know HTML*/
+
     #scale-it {
         margin-top: 600px;
         /*background: blue*/
     }
     /*Course I did on treehouse*/
+
     #smush-it {
         /*margin-top: 0px;*/
         font-size: 70px;
     }
     /*All Two Websites I've Created*/
+
     #fade-it {
         font-size: 70px;
     }
     /*You Know What to Do*/
+
     #spin-it {
         font-size: 50px;
     }
 
     .social,
     .navbar-fixed-top {
-    margin-left: 0px;
+        margin-left: 0px;
+    }
 }
-}
-
 
 /* Large Devices, Wide Screens */
-
 @media only screen and (min-width: 1430px) {
     /*==================================================
 =   Erlich BG                                      =
 ==================================================*/
+
     div#know {
         position: relative;
         height: 700px;
@@ -239,40 +249,44 @@
         background-repeat: no-repeat;
     }
     /*I know HTML*/
+
     #scale-it {
         margin-top: 500px;
         /*background: red*/
     }
     /*Course I did on treehouse*/
+
     #smush-it {
         /*margin-top: 0px;*/
         font-size: 70px;
     }
     /*All Two Websites I've Created*/
+
     #fade-it {
         font-size: 65px;
     }
     /*You Know What to Do*/
+
     #spin-it {
         font-size: 43px;
     }
 
     .social,
     .navbar-fixed-top {
-    margin-left: 0px;
-}
-        svg {
-            margin-bottom: 5px;
-        }
-}
+        margin-left: 0px;
+    }
 
+    svg {
+        margin-bottom: 5px;
+    }
+}
 
 /*XL Large Devices, XL Screens */
-
 @media only screen and (min-width: 1900px) {
     /*==================================================
 =   Erlich BG                                      =
 ==================================================*/
+
     div#know {
         position: relative;
         height: 1050px;
@@ -280,84 +294,77 @@
         background-size: 100%;
         background-repeat: no-repeat;
     }
-
     /*I know HTML*/
+
     #scale-it {
         margin-top: 800px;
         /*background: purple*/
     }
     /*Course I did on treehouse*/
+
     #smush-it {
         /*margin-top: 0px;*/
         font-size: 70px;
     }
     /*All Two Websites I've Created*/
+
     #fade-it {
         font-size: 70px;
     }
     /*You Know What to Do*/
+
     #spin-it {
         font-size: 60px;
     }
 
     .social,
     .navbar-fixed-top {
-    margin-left: 0px;
-}
+        margin-left: 0px;
+    }
 
-        svg {
-            width: 7em;
-            height: 7em;
-            margin-bottom: 0px;
-        }
+    svg {
+        width: 7em;
+        height: 7em;
+        margin-bottom: 0px;
+    }
 }
 
 /*==================================================
 =            Bootstrap Media Queries END           =
 ==================================================*/
 
-
 /*==================================================
 =              Background Styles                   =
 ==================================================*/
-
 body {
     background-image: url("../img/stardust.png");
     background-repeat: repeat;
     /*margin-top: 50px;*/
 }
-
 div#know {
     /*bottom shaddow out side*/
+
     box-shadow: 0px 2px 20px white;
 }
-
 div#what {
     background: rgba(31, 38, 18, .4);
     box-shadow: 0px 2px 20px white;
-    padding-top:80px;
+    padding-top: 80px;
 }
-
-div#where {
-
-}
-
+div#where {}
 div#how {
     padding-top: 70px;
     height: 800px;
     background: rgba(31, 38, 18, .6);
     box-shadow: inset 0 20px 20px -20px white;
 }
-
-footer{
+footer {
     box-shadow: inset 0 20px 20px -20px white;
 }
-
 
 /*==================================================
 =                    Fonts                         =
 ==================================================*/
-
 h1,
 h2,
 h3,
@@ -376,17 +383,14 @@ label,
 {
     font-family: 'Source Code Pro', ;
 }
-
 .card-subtitle,
 .card-title {
     font-weight: 400;
 }
 
-
 /*==================================================
 =                  Nav Styles                      =
 ==================================================*/
-
 .navbar-toggler {
     padding: 1.2rem;
     font-size: 1.25rem;
@@ -394,19 +398,16 @@ label,
     border-radius: 4rem;
     margin-top: 18px;
     margin-left: 8px;
-    background: rgba(70,130,180, .6);
+    background: rgba(70, 130, 180, .6);
     outline: none !important;
 }
-
 .navbar-toggler:hover {
     outline: none !important;
 }
-
 .navbar-toggler:focus,
 .navbar-toggler:hover {
     text-decoration: none;
 }
-
 .nav-item {
     background: steelblue;
     margin-top: 10px;
@@ -414,34 +415,29 @@ label,
     margin-right: -10px;
     border-radius: 10px;
 }
-
 .navbar .navbar-nav a {
     color: white;
     padding: 10px;
 }
-
 .navbar .navbar-nav .active a {
     font-weight: 700;
     border-radius: 10px;
 }
-
 .navbar .navbar-nav a:hover {
     font-weight: 700;
     /*border-bottom: 4px solid chocolate;*/
+
     border-radius: 10px;
 }
-
 .navbar .footer-nav a:hover {
     color: #674d90;
     border-bottom: none;
     text-decoration: none;
 }
 
-
 /*==================================================
 =                Superscrollorama                  =
 ==================================================*/
-
 h2 {
     position: absolute;
     text-align: center;
@@ -451,9 +447,9 @@ h2 {
     text-shadow: 0 2px 1px black;
     font-family: 'Source Code Pro', Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, Gadget, sans-serif;
 }
-
 h2.css3 {
     /*font-size: 30px;*/
+
     font-weight: bold;
     text-align: center;
     color: steelblue;
@@ -461,11 +457,9 @@ h2.css3 {
     font-family: 'Source Code Pro', , Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, Gadget, sans-serif;
 }
 
-
 /*==================================================
 =                   Form                           =
 ==================================================*/
-
 *,
 *:before,
 *:after {
@@ -474,12 +468,10 @@ h2.css3 {
     box-sizing: border-box;
 }
 
-
 /*body {
     font-family: 'Nunito', sans-serif;
     color: #384047;
 }*/
-
 
 }
 form {
@@ -505,7 +497,10 @@ input[type="time"],
 input[type="url"],
 textarea,
 select {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(255,
+    255,
+    255,
+    0.1);
     border: none;
     font-size: 16px;
     height: auto;
@@ -515,7 +510,10 @@ select {
     width: 100%;
     background-color: #e8eeef;
     color: #8a97a0;
-    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,
+    0,
+    0,
+    0.03) inset;
     margin-bottom: 30px;
 }
 input[type="radio"],
@@ -538,13 +536,17 @@ select {
     width: 100%;
     border: 1px solid #3ac162;
     border-width: 1px 1px 3px;
-    box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+    box-shadow: 0 -1px 0 rgba(255,
+    255,
+    255,
+    0.1) inset;
     margin-bottom: 10px;
 }
 .buttons:hover {
     background-color: lightgreen;
     border: 1px solid lightgoldenrodyellow;
     border-width: 1px 1px 3px;
+    text-decoration: none;
 }
 .card-link {
     color: #FFF;
@@ -584,31 +586,29 @@ label.light {
     margin-right: 4px;
     line-height: 30px;
     text-align: center;
-    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+    text-shadow: 0 1px 0 rgba(255,
+    255,
+    255,
+    0.2);
     border-radius: 100%;
 }
-
-        ul li {
-            list-style-type: none;
-            text-align: center;
-        }
-
-        .twitter:hover {
-            fill: dodgerblue;
-            fill-opacity:1;
-        }
-
-        .treehouse:hover {
-            fill: mediumaquamarine;
-            fill-opacity:1;
-        }
-
-        .github:hover {
-            fill: black;
-            fill-opacity:1;
-        }
-
-        .facebook:hover {
-            fill: #3b5998;
-            fill-opacity:1;
-        }
+ul li {
+    list-style-type: none;
+    text-align: center;
+}
+.twitter:hover {
+    fill: dodgerblue;
+    fill-opacity:1;
+}
+.treehouse:hover {
+    fill: mediumaquamarine;
+    fill-opacity:1;
+}
+.github:hover {
+    fill: black;
+    fill-opacity:1;
+}
+.facebook:hover {
+    fill: #3b5998;
+    fill-opacity:1;
+}
